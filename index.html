@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">  <!--Lenguaje a utilizar-->
+<head> <!-- Inicio de la cabecera-->
+	<meta charset="utf-8"> <!-- Par que reconozca los simbolos del idioma-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Averiguar?-->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"> <!-- Averiguar?-->
+	<title>Encriptador de Texto</title>  <!-- Titulo del documento -->
+	<link rel="stylesheet" href="style.css"> <!-- Nombre y ubicacion de la hoja de estilo -->
+</head> <!-- Fin de la cabecera-->
+<body> <!-- Inicio del cuerpo de la pagina -->
+	<header class="header">
+		<h1 class="titulo">Código Secreto</h1> <!--Titulo principal de la pagina -->
+	</header>
+	<main class="main"> <!--Principal (cuerpo principal de la pagina) -->
+		<!--<h3>Main</h3>-->
+		<section class="form box"> <!--Seccion 1 --> 
+			<!--<h3>Seccion 1</h3>-->
+			<form action=""> <!-- Formulario -->
+				<label for="input-texto"> Solo letras minúsculas, sin acento, ni simbolos</label> <!--Texto informativo -->
+				<input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aquí"> <!--Campo para ingresar texto -->
+				<input class="btn" type="button" value="Encriptar" id="btn-encriptar"> <!-- Boton para encriptar el mensaje -->
+				<input class="btn" type="button" value="Desencriptar" id="btn-desencriptar"> <!-- Boton para desencriptar el mensaje -->
+			</form> <!-- Fin de Formulario -->
+		</section> <!-- Fin de Seccion 1 -->
+		<section class="msg box"> <!--Seccion 2-->
+			<h2 id=""> Mensaje encriptado:</h2> 
+			<input class="text-input" type="text" id="msg"></input> <!--Campo para mostrar el texto encriptado / desencriptado -->
+			<input class="btn" type="button" value="Copiar" id="btn-copy"> <!--Boton para copiar el texto encriptado -->
+		</section> <!--Fin de Seccion 2-->
+	</main> <!-- Fin del Principal -->	
+	<footer class="footer">
+		<div class="container-footer-all">
+			<div class="container-body">
+				<div class="columna1">
+					<h1>Challenge Oracle ONE - Lógica de programación</h1>
+					<p>1° Proyecto correspondiente al Curso de Principiante en Programación, brindado por Alura LATAM + Oracle. El mismo consiste en la creacion de un "Encriptador de Texto realizado puramente con JavaScript.</p>
+				</div>
+				<div class="columna2">
+					<h1>Redes Sociales</h1>
+					<div class="row">
+						<a title="facebook" href="https://www.facebook.com/maxi.camargo" target="_blank"><img src="img/facebook.png"></a>
+						<label>Sigueme en Facebook</label> 
+					</div>
+					<div class="row">
+						<a title="instagram" href="https://www.instagram.com/soymaxicamargo" target="_blank"><img src="img/instagram.png"></a>
+						<label>Sigueme en Instagram</label> 
+					</div>
+					<div class="row">
+						<a title="linkedin" href="https://www.linkedin.com/in/maximilianocamargo/" target="_blank"><img src="img/linkedin.png"></a>
+						<label>Sigueme en Linkedin</label> 
+					</div>
+					<div class="row">
+						<a title="youtube" href="https://www.youtube.com/channel/UCgofERk3dpuTPiirQ7Q0-KQ" target="_blank"><img src="img/youtube.png"></a>
+						<label>Sigueme en Youtube</label> 
+					</div>
+				</div>
+				<div class="columna3">
+					<h1>Informacion de Contacto</h1>
+					<div class="row2">
+						<img src="img/home.png">
+						<label>Berutti 147, Salsipuedes Cordoba Argentina</label>	
+					</div>
+					<div class="row2">
+						<img src="img/telefono.png">
+						<label>+54 9 351 3411769</label>	
+					</div>
+					<div class="row2">
+						<img src="img/correo.png">
+						<label>maxi.camargo@gmail.com</label>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-footer">
+			<div class="piedepagina">
+				<div class="copyright" >
+					&copy 2022 Todos los derechos Reservados | <a href="">MJC</a>
+				</div>
+				<div class="information">
+					Proximamente...
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="script.js"></script> <!--Nombre y ubicacion de la hoja de JavaScript -->
+</body> <!-- Fin del cuerpo de la pagina -->
+</html>
